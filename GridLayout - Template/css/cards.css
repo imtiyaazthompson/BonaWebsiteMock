@@ -1,0 +1,29 @@
+.card-menu {
+  /* border: solid green 1px; */
+  background-image: url("res/gebba.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 250px;
+  width: 100%; /* Use 100% of the space alloted by the grid this card is in */
+  height: 250px;
+  opacity: 1.0;
+  transition: width 0.75s, height 0.75s, opacity 0.85s, font-size 0.35s;
+  font-size: 3em;
+  text-align: center;
+  text-shadow: 2px 2px white;
+  line-height: 175px;
+  font-family: 'Permanent Marker';
+  font-size: 3em;
+}
+
+.card-menu:hover {
+  background-size: 105% 260px;
+  width: 105%;
+  height: 260px;
+  opacity: 0.65;
+  font-size: 1.3em;
+}
+
+.card-link {
+  text-decoration: none;
+  color: gray;
+}
