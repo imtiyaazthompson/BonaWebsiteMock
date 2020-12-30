@@ -1,0 +1,1 @@
+Build in stages, like playing around with card design before implementing in in site

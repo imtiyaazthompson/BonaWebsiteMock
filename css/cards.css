@@ -1,0 +1,19 @@
+.card-menu {
+  border: solid green 1px;
+  background-image: url("res/gatsby.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 200px;
+  width: 100%; /* Use 100% of the space alloted by the grid this card is in */
+  height: 200px;
+  opacity: 0.85;
+  transition: width 0.75s, height 0.75s, opacity 0.85s, font-size 0.35s;
+  font-size: 1em;
+}
+
+.card-menu:hover {
+  background-size: 105% 215px;
+  width: 105%;
+  height: 215px;
+  opacity: 0.65;
+  font-size: 1.3em;
+}

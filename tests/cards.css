@@ -1,0 +1,23 @@
+.card-small {
+  border: solid green 5px;
+  border-radius: 15px;
+  background-image: url("sample.jfif");
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  opacity: 0.65;
+  width: 100px;
+  height: 100px;
+  transition: width 1s, height 1s, background-size 1s;
+}
+
+.card-small:hover {
+  width: 150px;
+  height: 150px;
+  opacity: 0.45;
+  background-size: 150px 150px;
+}
+
+.card-responsive {
+  border: solid red 4px;
+  width: 20%;
+}
