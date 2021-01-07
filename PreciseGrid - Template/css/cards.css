@@ -1,0 +1,25 @@
+.card {
+  margin: auto;
+  border: solid green 1px;
+  border-radius: 5px;
+  width: 90%;
+  height: 280px;
+  background-image: url("res/gebba.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-family: 'Staatliches';
+  font-size: 2em;
+  color: gray;
+  text-shadow: 2px 2px white;
+  text-align: center;
+  padding-top: 105px;
+
+  transition: width 0.75s, height 0.75s, font-size 0.75s, padding-top 0.75s;
+}
+
+.card:hover {
+  width: 95%;
+  height: 265px;
+  font-size: 3em;
+  padding-top: 95px;
+}
