@@ -1,0 +1,42 @@
+.bebas {
+  font-family: 'Bebas Neue';
+}
+.small {
+  font-size: 1em;
+}
+
+.medium {
+  font-size: 2em;
+}
+
+.large {
+  font-size: 3em;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.v-align-small {
+  padding-top: 15px;
+}
+
+.v-align-medium {
+  padding-top: 25px;
+}
+
+.v-align-large {
+  padding-top: 35px;
+}
+
+.pop {
+  text-shadow: 3px 3px 2px rgb(190,64,64);
+}
